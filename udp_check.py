@@ -84,7 +84,7 @@ if __name__ == "__main__":
 
     tests = [
         ("8.8.8.8", 53),          # DNS (may respond or not depending on network)
-        ("pool.ntp.org", 123),    # NTP (often no response to arbitrary payload)
+        ("pool.ntp.org", 123),    # NTP 
         ("localhost", 9999),      # likely no service
         ("google.com", 99999),    # invalid port
     ]
@@ -93,4 +93,5 @@ if __name__ == "__main__":
         print("-" * 50)
         ok, detail = udp_check(host, port, timeout=3.0, log=log)
         print(f"Result: success={ok}, detail={detail}")
+
 
