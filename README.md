@@ -1,4 +1,4 @@
-Mini Network Diagnostic Tool (Student Project)
+Mini Network Diagnostic Tool 
 ================================================
 
 Overview
@@ -45,3 +45,4 @@ Project Files
 - tcp_check.py: TCP connectivity + latency
 - udp_check.py: UDP probe 
 - diagnostic_summary.py: collects results + prints summary
+
