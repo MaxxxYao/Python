@@ -16,7 +16,6 @@ def tcp_check(
         host: target IP address
         port: TCP port to test
         timeout: socket timeout in seconds
-        log: optional logging function (e.g. stderr logger)
 
     Returns:
         success (bool)
@@ -60,3 +59,4 @@ def tcp_check(
 
     except Exception as e:
         return False, f"Unexpected error: {e}", None
+
