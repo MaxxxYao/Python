@@ -163,10 +163,6 @@ def main():
             f.write(json_text)
     
 
-
-
-
-
-
 if __name__ == "__main__":
     main()
+
