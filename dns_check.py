@@ -19,7 +19,7 @@ def dns_check(
 
     Args:
         hostname: The domain name to resolve (e.g. "google.com")
-        log: Optional logging function (e.g. stderr logger)
+        log: Optional logging function 
 
     Returns:
         (success, result):
@@ -74,4 +74,5 @@ if __name__ == "__main__":
         print("-" * 50)
         success, result = dns_check(domain)
         print(f"Result: success={success}, detail={result}")
+
 
