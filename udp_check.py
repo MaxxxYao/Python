@@ -23,7 +23,6 @@ def udp_check(
         host: Target hostname or IP
         port: Target UDP port
         timeout: Receive timeout in seconds
-        log: Optional logging function (e.g., stderr logger)
 
     Returns:
         (success, detail):
@@ -94,3 +93,4 @@ if __name__ == "__main__":
         print("-" * 50)
         ok, detail = udp_check(host, port, timeout=3.0, log=log)
         print(f"Result: success={ok}, detail={detail}")
+
